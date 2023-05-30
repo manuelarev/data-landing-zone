@@ -16,7 +16,6 @@ module "data_landing_zone" {
   nsg_id                                  = var.nsg_id
   route_table_id                          = var.route_table_id
   subnet_cidr_ranges                      = var.subnet_cidr_ranges
-  enable_databricks_auth_private_endpoint = var.enable_databricks_auth_private_endpoint
   purview_id                              = var.purview_id
   unity_metastore_name                    = var.unity_metastore_name
   unity_metastore_id                      = var.unity_metastore_id

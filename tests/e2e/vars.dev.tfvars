@@ -14,7 +14,6 @@ databricks_admin_groupname              = "test"
 data_platform_subscription_ids          = []
 data_product_template_file_variables    = {}
 subnet_cidr_ranges                      = {}
-enable_databricks_auth_private_endpoint = true
 private_dns_zone_id_blob                = "/subscriptions/8f171ff9-2b5b-4f0f-aed5-7fa360a1d094/resourceGroups/mycrp-prd-global-dns/providers/Microsoft.Network/privateDnsZones/privatelink.blob.core.windows.net"
 private_dns_zone_id_dfs                 = "/subscriptions/8f171ff9-2b5b-4f0f-aed5-7fa360a1d094/resourceGroups/mycrp-prd-global-dns/providers/Microsoft.Network/privateDnsZones/privatelink.dfs.core.windows.net"
 private_dns_zone_id_queue               = "/subscriptions/8f171ff9-2b5b-4f0f-aed5-7fa360a1d094/resourceGroups/mycrp-prd-global-dns/providers/Microsoft.Network/privateDnsZones/privatelink.queue.core.windows.net"
